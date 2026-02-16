@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Jersey Form</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    form {
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 12px;
+      width: 350px;
+      margin: auto;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 6px;
+      border: none;
+    }
+    button {
+      background: red;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>🏏 Jersey Details Form</h2>
+
+<form action="https://formsubmit.co/YOURMAIL@gmail.com" method="POST">
+
+  <input type="text" name="Player Name" placeholder="Player Full Name" required>
+
+  <input type="text" name="Jersey Name" placeholder="Name on Jersey" required>
+
+  <input type="number" name="Jersey Number" placeholder="Jersey Number" required>
+
+  <select name="Size" required>
+    <option value="">Select Size</option>
+    <option>S</option>
+    <option>M</option>
+    <option>L</option>
+    <option>XL</option>
+    <option>XXL</option>
+  </select>
+
+  <input type="hidden" name="_captcha" value="false">
+
+  <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
